@@ -27,8 +27,13 @@ body {
 .faq-section {
   min-height: 100vh;
   background: linear-gradient(var(--soft-violet), var(--soft-blue));
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq {
   background: #fff;
+  width: 60%;
+  /* display: flex; */
 }
