@@ -36,4 +36,5 @@ body {
   background: #fff;
   width: 60%;
   display: flex;
+  border-radius: 2rem;
 }
