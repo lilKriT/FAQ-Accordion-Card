@@ -32,8 +32,8 @@ body {
   align-items: center;
 }
 
-.faq {
+.faq-card {
   background: #fff;
   width: 60%;
-  /* display: flex; */
+  display: flex;
 }
