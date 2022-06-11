@@ -39,6 +39,7 @@ body {
   border-radius: 2rem;
 }
 
-.faq-card .left{
-
+.faq-card .left {
+  background: right 50px bottom 25px url("images/bg-pattern-desktop.svg") no-repeat;
+  min-height: 800px;
 }
