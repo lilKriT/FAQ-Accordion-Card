@@ -40,6 +40,6 @@ body {
 }
 
 .faq-card .left {
-  background: right 50px bottom 25px url("images/bg-pattern-desktop.svg") no-repeat;
+  background: right -15% bottom 25px url("images/bg-pattern-desktop.svg") no-repeat;
   min-height: 800px;
 }
