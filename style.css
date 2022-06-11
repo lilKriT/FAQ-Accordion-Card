@@ -24,6 +24,10 @@ body {
   font-size: 12px;
 }
 
+img {
+  display: block;
+}
+
 .faq-section {
   min-height: 100vh;
   background: linear-gradient(var(--soft-violet), var(--soft-blue));
@@ -38,12 +42,26 @@ body {
   display: flex;
   border-radius: 2rem;
   margin: 4rem auto;
+  min-height: 480px;
+  box-shadow: 0px 20px 25px rgb(0 0 0 / 0.3);
 }
 
 .faq-card .left {
   background: right -15% bottom 25px url("images/bg-pattern-desktop.svg") no-repeat;
-  min-height: 800px;
   flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.faq-card .left .woman-image {
+  position: relative;
+  left: -10%;
+  width: 100%;
+}
+
+.faq-card .left .woman-image img {
+  width: 100%;
 }
 
 .faq-card .right {
