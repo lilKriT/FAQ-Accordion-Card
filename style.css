@@ -37,9 +37,22 @@ body {
   width: 60%;
   display: flex;
   border-radius: 2rem;
+  margin: 4rem auto;
 }
 
 .faq-card .left {
   background: right -15% bottom 25px url("images/bg-pattern-desktop.svg") no-repeat;
   min-height: 800px;
+  flex: 1 1 50%;
+}
+
+.faq-card .right {
+  flex: 1 1 50%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.faq-card .right h2 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
 }
