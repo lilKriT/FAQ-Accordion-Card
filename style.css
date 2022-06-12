@@ -47,10 +47,10 @@ img {
 }
 
 .faq-card .left {
-  background: right 40px center url("images/bg-pattern-desktop.svg") no-repeat;
+  background: right 40px top -300px url("images/bg-pattern-desktop.svg") no-repeat;
   flex: 1 1 50%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* overflow: hidden; */
 }
 
@@ -64,6 +64,7 @@ img {
 .faq-card .left .woman-image img {
   position: relative;
   left: -40px;
+  top: 80px;
   width: 100%;
 }
 
