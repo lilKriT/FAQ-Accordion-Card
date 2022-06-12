@@ -54,13 +54,16 @@ img {
   /* overflow: hidden; */
 }
 
-.faq-card .left .woman-image {
+/* this seems redundant */
+/* .faq-card .left .woman-image {
   position: relative;
   left: -10%;
   width: 100%;
-}
+} */
 
 .faq-card .left .woman-image img {
+  position: relative;
+  left: -10%;
   width: 100%;
 }
 
