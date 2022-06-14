@@ -82,4 +82,17 @@ img {
 .faq-card .right h2 {
   font-size: 2.25rem;
   text-transform: uppercase;
+  margin: 2.5rem 0 24px;
+}
+
+.faq-card .faq {
+  list-style: none;
+}
+
+.faq-card .faq li {
+
+}
+
+.faq-card .faq li h2 {
+  
 }
