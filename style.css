@@ -88,6 +88,7 @@ img {
 .faq-card .faq {
   list-style: none;
   width: 80%;
+  margin-bottom: 2.4rem;
 }
 
 .faq-card .faq li {
@@ -103,4 +104,14 @@ img {
 
 .faq-card .faq li p {
   display: none;
+  margin: 10px 0px 0px;
+  font-size: 14px;
+}
+
+.faq-card .faq li.expanded h3 {
+  font-weight: 700;
+}
+
+.faq-card .faq li.expanded p {
+  display: block;
 }
