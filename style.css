@@ -102,6 +102,10 @@ img {
   font-weight: 400;
 }
 
+.faq-card .faq li:hover h3 {
+  color: var(--soft-red);
+}
+
 .faq-card .faq li p {
   display: none;
   margin: 10px 0px 0px;
