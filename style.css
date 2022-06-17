@@ -129,4 +129,18 @@ img {
 
 .faq-card .faq li.expanded p {
   display: block;
+  /* max-height: 10px; */
+  overflow: hidden;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+@keyframes slidein {
+  from {
+    max-height: 0px;
+  }
+
+  to {
+    max-height: 1000px;
+  }
 }
