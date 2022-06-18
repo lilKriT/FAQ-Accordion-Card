@@ -113,6 +113,10 @@ img {
   font-weight: 400;
 }
 
+.faq-card .faq li img.chevron {
+  transition: transform 0.3s;
+}
+
 .faq-card .faq li:hover h3 {
   color: var(--soft-red);
 }
@@ -127,16 +131,20 @@ img {
   /* animation-name: slidein;
   animation-duration: 3s;
   animation-direction: reverse; */
-  transition: all 1s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
 }
 
 .faq-card .faq li.expanded h3 {
   font-weight: 700;
 }
 
+.faq-card .faq li.expanded img.chevron {
+  transform: rotateZ(180deg);
+}
+
 .faq-card .faq li.expanded p {
   /* display: block; */
-  max-height: 100%;
+  max-height: 100px;
   /* animation-name: slidein;
   animation-duration: 3s;
   animation-direction: normal; */
