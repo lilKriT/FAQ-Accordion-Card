@@ -131,7 +131,8 @@ img {
   /* animation-name: slidein;
   animation-duration: 3s;
   animation-direction: reverse; */
-  transition: max-height 0.3s ease-in-out;
+  transform: scaleY(0);
+  transition: all 0.3s ease-in-out;
 }
 
 .faq-card .faq li.expanded h3 {
@@ -149,6 +150,7 @@ img {
   animation-duration: 3s;
   animation-direction: normal; */
   /* transition: max-height 0.3s ease-in; */
+  transform: scaleY(1);
 }
 
 @keyframes slidein {
